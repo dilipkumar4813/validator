@@ -1,8 +1,9 @@
 
 
+[![](https://jitpack.io/v/dilipkumar4813/validator.svg)](https://jitpack.io/#dilipkumar4813/validator)
+
 # Validations Plugin For Android Applications
 
-[![](https://jitpack.io/v/dilipkumar4813/validator.svg)](https://jitpack.io/#dilipkumar4813/validator)
 
 ## Installation
 
@@ -24,6 +25,21 @@ Add the dependency
 	        implementation 'com.github.dilipkumar4813:validator:Tag'
 	}
 ```
+
+## Usage
+
+Class - UserName
+---
+* nameList
+* removeSpaces
+* uppercase
+* lowercase
+
+Class - MobileNumber
+---
+* removeSpecialCharacters
+* removeHyphenAndSpace
+* removeCountryCode
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
